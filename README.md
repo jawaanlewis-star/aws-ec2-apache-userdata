@@ -31,7 +31,7 @@ This project deploys an Apache web server on an AWS EC2 Linux instance using an 
 ## Screenshots
 
 ### EC2 Instance Summary
-![EC2 Summary](screenshots/screenshots/ec2-summary.png)
+![EC2 Summary](screenshots/ec2-summary.png)
 
 ### Security Group Rules
 ![Security Group](screenshots/security-group.png)
