@@ -29,4 +29,13 @@ This project deploys an Apache web server on an AWS EC2 Linux instance using an 
 - Check logs: `/var/log/httpd/access_log`
 
 ## Screenshots
-(Coming soon)
+
+### EC2 Instance Summary
+![EC2 Summary](screenshots/EC2-Instance-Summary.png)
+
+### Security Group Rules
+![Security Group](screenshots/Security-Group-Inbound-Rules.png
+
+### Web Page
+![Webpage](screenshots/EC2-Instance-Browser.png
+
