@@ -35,3 +35,26 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# --- AWS / Cloud Safety ---
+*.pem
+*.ppk
+*.key
+*.crt
+*.p12
+.env
+.env.*
+**/secrets.*
+**/*credentials*
+**/credentials
+**/.aws/
+**/config
+
+# --- OS / Editor Junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log
