@@ -1,32 +1,3 @@
-[2J[01;01H[=3h[2J[01;01H[2J[01;01H[=3h[2J[01;01H[2J[01;01H[=3h[2J[01;01H[0m[35m[40m[2J[01;01H[=3h[2J[01;01H[0m[37m[40m  Booting `Amazon Linux (6.1.159-181.297.amzn2023.x86_64) 2023'
-
-
-[    0.033927] RETBleed: WARNING: Spectre v2 mitigation leaves CPU vulnerable to RETBleed attacks, data leaks possible!
-[    2.635434] systemd[1]: modprobe@configfs.service: Deactivated successfully.
-[    2.639165] loop: module loaded
-[    2.673459] systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
-[    2.674970] systemd[1]: Started systemd-journald.service - Journal Service.
-[    3.213444] systemd-journald[829]: Received client request to flush runtime journal.
-[    3.585960] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
-[    3.590636] ena 0000:00:05.0: Elastic Network Adapter (ENA) v2.15.0g
-[    3.591521] RPC: Registered named UNIX socket transport module.
-[    3.592186] RPC: Registered udp transport module.
-[    3.592830] RPC: Registered tcp transport module.
-[    3.593517] RPC: Registered tcp NFSv4.1 backchannel transport module.
-[    3.614871] ena 0000:00:05.0: ENA device version: 0.10
-[    3.615460] ena 0000:00:05.0: ENA controller version: 0.0.1 implementation version 1
-[    3.622396] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
-[    3.623590] i8042: Warning: Keylock active
-[    3.624943] ACPI: button: Power Button [PWRF]
-[    3.625483] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
-[    3.626650] ACPI: button: Sleep Button [SLPF]
-[    3.629884] serio: i8042 KBD port at 0x60,0x64 irq 1
-[    3.630427] serio: i8042 AUX port at 0x60,0x64 irq 12
-[    3.692915] ena 0000:00:05.0: LLQ is not supported Fallback to host mode policy.
-[    3.706737] ena 0000:00:05.0: Elastic Network Adapter (ENA) found at mem 80400000, mac addr 0a:de:e1:61:de:bb
-[    3.753061] ena 0000:00:05.0 ens5: renamed from eth0
-[    3.914401] zram_generator::config[1378]: zram0: system has too much memory (916MB), limit is 800MB, ignoring.
-[    4.668406] ena 0000:00:05.0 ens5: Local page cache is disabled for less than 16 channels
 [    6.147426] cloud-init[1519]: Cloud-init v. 22.2.2 running 'init' at Mon, 19 Jan 2026 03:50:40 +0000. Up 6.12 seconds.
 [    6.218068] cloud-init[1519]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
 [    6.220203] cloud-init[1519]: ci-info: +--------+------+-----------------------------+---------------+--------+-------------------+
