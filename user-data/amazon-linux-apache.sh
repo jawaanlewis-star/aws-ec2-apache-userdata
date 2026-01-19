@@ -3,7 +3,10 @@ dnf -y update
 dnf -y install httpd
 systemctl enable httpd
 systemctl start httpd
-echo "<h1>Jawaan's EC2 Apache Server</h1><p>Deployed with EC2 user-data</p>" > /var/www/html/index.html
+cat > /var/www/html/index.html <<'HTML'
+<h1>Jawaan's EC2 Apache Server</h1>
+<p>Deployed via EC2 user-data.</p>
+HTML
 
 [    6.147426] cloud-init[1519]: Cloud-init v. 22.2.2 running 'init' at Mon, 19 Jan 2026 03:50:40 +0000. Up 6.12 seconds.
 [    6.218068] cloud-init[1519]: ci-info: ++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
